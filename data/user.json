@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "a101",
+    "fullname": "UserTest",
+    "username": "HelloTest",
+    "password": "123",
+    "isAdmin": "false"
+  },
+  {
+    "_id": "a102",
+    "fullname": "UserTest1",
+    "username": "HelloTest1",
+    "password": "1234",
+    "isAdmin": "true"
+  },
+  {
+    "_id": "sdhpi",
+    "fullname": "UserTest1",
+    "username": "HelloTest1",
+    "password": "1234"
+  },
+  {
+    "_id": "QrNsC",
+    "fullname": "UserTest1",
+    "username": "HelloTest1",
+    "password": "1234"
+  },
+  {
+    "_id": "uLP1p",
+    "fullname": "sss",
+    "username": "sss",
+    "password": "7777"
+  },
+  {
+    "_id": "tXRxm",
+    "fullname": "aaa",
+    "username": "aa",
+    "password": "111"
+  },
+  {
+    "_id": "4vKe3",
+    "fullname": "qq",
+    "username": "qq",
+    "password": "qq",
+    "isAdmin": false
+  }
+]

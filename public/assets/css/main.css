@@ -1,0 +1,113 @@
+body {
+    max-width: 600px;
+    margin: auto;
+}
+
+header {
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+footer {
+    background-color: lightskyblue;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-bottom: 1px solid whitesmoke;
+    text-decoration: overline;
+    color: whitesmoke;
+}
+
+.main-title {
+    text-align: center;
+    color: rgba(36, 7, 7, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.user-msg {
+    color: white;
+    padding: 10px;
+    font-size: 1.4em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: grey;
+}
+
+.user-msg button {
+    float: right;
+    border: 0;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.success {
+    background-color: rgb(41, 189, 73);
+}
+
+.danger {
+    background-color: rgb(216, 59, 59);
+}
+
+.bug-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bug-preview {
+    background-color: #333;
+    color: whitesmoke;
+    border-radius: .2em;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    max-width: 160px;
+    min-width: 130px;
+}
+
+.bug-preview p {
+    margin: 5px 15px;
+}
+
+.bug-preview a {
+    color: lightskyblue;
+}
+
+.bug-preview span {
+    color: gold;
+}
+
+
+.bug-preview .high-priority {
+    color: red;
+}
+
+
+.modal {
+    position: fixed;
+    background-color: #333;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal input {
+    height: 30px;
+}
